@@ -1,0 +1,614 @@
+[
+  {
+    "InstitutionID": 15822,
+    "InstitutionName": "Purdue Global",
+    "Courses": [
+      {
+        "AdEnrollId": 2883009,
+        "AdCourseId": 20056,
+        "Grade": "TC",
+        "Status": "P",
+        "AdEnrollSchedId": 45093909,
+        "Title": "Prior Associates Degree",
+        "Code": "ASSOC-90.1",
+        "IsAvailableForAssociation": true,
+        "Term": "TC",
+        "EquivalentCourses": [],
+        "CreditsEarned": 90.00,
+        "History": [
+          {
+            "Program": "XLIII! Adv. BS in Health Science",
+            "Status": "Drop",
+            "StartDate": "2015-08-26T00:00:00",
+            "Courses": [
+              {
+                "Title": "Prior Associates Degree",
+                "Code": "ASSOC-90.1",
+                "Term": "TC",
+                "Grade": "TC",
+                "Associate": true
+              }
+            ]
+          }
+        ],
+        "ParentId": null
+      },
+      {
+        "AdEnrollId": 2883009,
+        "AdCourseId": 500843,
+        "Grade": "EC",
+        "Status": "P",
+        "AdEnrollSchedId": 45105776,
+        "Title": "Health Science Elective Pool",
+        "Code": "HSELE.05",
+        "IsAvailableForAssociation": true,
+        "Term": "TC",
+        "EquivalentCourses": [],
+        "CreditsEarned": 6.00,
+        "History": [
+          {
+            "Program": "XLIII! Adv. BS in Health Science",
+            "Status": "Drop",
+            "StartDate": "2015-08-26T00:00:00",
+            "Courses": [
+              {
+                "Title": "Health Science Elective Pool",
+                "Code": "HSELE.05",
+                "Term": "TC",
+                "Grade": "EC",
+                "Associate": true
+              }
+            ]
+          }
+        ],
+        "ParentId": null
+      },
+      {
+        "AdEnrollId": 2883009,
+        "AdCourseId": 504290,
+        "Grade": "EC",
+        "Status": "P",
+        "AdEnrollSchedId": 45105875,
+        "Title": "Transfer Credit",
+        "Code": "TC2.0",
+        "IsAvailableForAssociation": true,
+        "Term": "TC",
+        "EquivalentCourses": [],
+        "CreditsEarned": 2.00,
+        "History": [
+          {
+            "Program": "XLIII! Adv. BS in Health Science",
+            "Status": "Drop",
+            "StartDate": "2015-08-26T00:00:00",
+            "Courses": [
+              {
+                "Title": "Transfer Credit",
+                "Code": "TC2.0",
+                "Term": "TC",
+                "Grade": "EC",
+                "Associate": true
+              }
+            ]
+          }
+        ],
+        "ParentId": null
+      },
+      {
+        "AdEnrollId": 2702521,
+        "AdCourseId": 507648,
+        "Grade": "EC",
+        "Status": "P",
+        "AdEnrollSchedId": 41932907,
+        "Title": "Transfer Credit",
+        "Code": "TC20.1",
+        "IsAvailableForAssociation": true,
+        "Term": "TC",
+        "EquivalentCourses": [],
+        "CreditsEarned": 20.00,
+        "History": [
+          {
+            "Program": "XXXIX! AS in Health Science",
+            "Status": "Graduate",
+            "StartDate": "2014-04-16T00:00:00",
+            "Courses": [
+              {
+                "Title": "Transfer Credit",
+                "Code": "TC20.1",
+                "Term": "TC",
+                "Grade": "EC",
+                "Associate": true
+              }
+            ]
+          }
+        ],
+        "ParentId": null
+      },
+      {
+        "AdEnrollId": 2883009,
+        "AdCourseId": 504300,
+        "Grade": "EC",
+        "Status": "P",
+        "AdEnrollSchedId": 45105820,
+        "Title": "Transfer Credit",
+        "Code": "TC3.0",
+        "IsAvailableForAssociation": true,
+        "Term": "TC",
+        "EquivalentCourses": [],
+        "CreditsEarned": 3.00,
+        "History": [
+          {
+            "Program": "XLIII! Adv. BS in Health Science",
+            "Status": "Drop",
+            "StartDate": "2015-08-26T00:00:00",
+            "Courses": [
+              {
+                "Title": "Transfer Credit",
+                "Code": "TC3.0",
+                "Term": "TC",
+                "Grade": "EC",
+                "Associate": true
+              }
+            ]
+          }
+        ],
+        "ParentId": null
+      },
+      {
+        "AdEnrollId": 2702521,
+        "AdCourseId": 507647,
+        "Grade": "EC",
+        "Status": "P",
+        "AdEnrollSchedId": 41932909,
+        "Title": "Transfer Credit",
+        "Code": "TC45.1",
+        "IsAvailableForAssociation": true,
+        "Term": "TC",
+        "EquivalentCourses": [],
+        "CreditsEarned": 45.00,
+        "History": [
+          {
+            "Program": "XXXIX! AS in Health Science",
+            "Status": "Graduate",
+            "StartDate": "2014-04-16T00:00:00",
+            "Courses": [
+              {
+                "Title": "Transfer Credit",
+                "Code": "TC45.1",
+                "Term": "TC",
+                "Grade": "EC",
+                "Associate": true
+              }
+            ]
+          }
+        ],
+        "ParentId": null
+      },
+      {
+        "AdEnrollId": 2883009,
+        "AdCourseId": 504330,
+        "Grade": "EC",
+        "Status": "P",
+        "AdEnrollSchedId": 45105779,
+        "Title": "Transfer Credit",
+        "Code": "TC6.0",
+        "IsAvailableForAssociation": true,
+        "Term": "TC",
+        "EquivalentCourses": [],
+        "CreditsEarned": 6.00,
+        "History": [
+          {
+            "Program": "XLIII! Adv. BS in Health Science",
+            "Status": "Drop",
+            "StartDate": "2015-08-26T00:00:00",
+            "Courses": [
+              {
+                "Title": "Transfer Credit",
+                "Code": "TC6.0",
+                "Term": "TC",
+                "Grade": "EC",
+                "Associate": true
+              }
+            ]
+          }
+        ],
+        "ParentId": null
+      },
+      {
+        "AdEnrollId": 2883009,
+        "AdCourseId": 504331,
+        "Grade": "EC",
+        "Status": "P",
+        "AdEnrollSchedId": 45105789,
+        "Title": "Transfer Credit",
+        "Code": "TC6.1",
+        "IsAvailableForAssociation": true,
+        "Term": "TC",
+        "EquivalentCourses": [],
+        "CreditsEarned": 6.00,
+        "History": [
+          {
+            "Program": "XLIII! Adv. BS in Health Science",
+            "Status": "Drop",
+            "StartDate": "2015-08-26T00:00:00",
+            "Courses": [
+              {
+                "Title": "Transfer Credit",
+                "Code": "TC6.1",
+                "Term": "TC",
+                "Grade": "EC",
+                "Associate": true
+              }
+            ]
+          }
+        ],
+        "ParentId": null
+      },
+      {
+        "AdEnrollId": 2702521,
+        "AdCourseId": 503549,
+        "Grade": "",
+        "Status": "S",
+        "AdEnrollSchedId": 41884701,
+        "Title": "Kaplan University Orientation",
+        "Code": "KU160",
+        "IsAvailableForAssociation": true,
+        "Term": "SPT",
+        "EquivalentCourses": [],
+        "CreditsEarned": 0.00,
+        "History": [
+          {
+            "Program": "XXXIX! AS in Health Science",
+            "Status": "Graduate",
+            "StartDate": "2014-04-16T00:00:00",
+            "Courses": [
+              {
+                "Title": "Kaplan University Orientation",
+                "Code": "KU160",
+                "Term": "SPT",
+                "Grade": "",
+                "Associate": true
+              }
+            ]
+          }
+        ],
+        "ParentId": null
+      },
+      {
+        "AdEnrollId": 2702521,
+        "AdCourseId": 42262,
+        "Grade": "D",
+        "Status": "P",
+        "AdEnrollSchedId": 41872021,
+        "Title": "College Composition II",
+        "Code": "CM220",
+        "IsAvailableForAssociation": true,
+        "Term": "1403B",
+        "EquivalentCourses": [
+          {
+            "AdCourseID": 42377,
+            "CourseCode": "CM220=",
+            "CourseTitle": "Effective Writing II",
+            "CourseDescription": "",
+            "Credits": 5.0000
+          },
+          {
+            "AdCourseID": 499621,
+            "CourseCode": "CM220>",
+            "CourseTitle": "College Composition II",
+            "CourseDescription": "",
+            "Credits": 3.0000
+          },
+          {
+            "AdCourseID": 504163,
+            "CourseCode": "CM220X",
+            "CourseTitle": "Course Assessment for College Composition II",
+            "CourseDescription": "",
+            "Credits": 5.0000
+          },
+          {
+            "AdCourseID": 501853,
+            "CourseCode": "CM222",
+            "CourseTitle": "College Composition II for Legal Studies Majors",
+            "CourseDescription": "This course helps students apply research and critical thinking skills to develop effective arguments. Students will create professional writings, incorporating postdraft revision\r\nstrategies, working constructively with colleagues.",
+            "Credits": 5.0000
+          },
+          {
+            "AdCourseID": 501854,
+            "CourseCode": "CM223",
+            "CourseTitle": "College Composition II for Criminal Justice Majors",
+            "CourseDescription": "Using a scenario-based model, this course demonstrates methods for applying research and critical thinking skills to develop effective arguments. Particular emphasis is placed on source analysis and synthesis and the application of APA formatting and documentation standards. Ultimately, students will create professional writings, incorporating postdraft revision strategies and working constructively with colleagues.",
+            "Credits": 5.0000
+          },
+          {
+            "AdCourseID": 501856,
+            "CourseCode": "CM225",
+            "CourseTitle": "College Composition II for Business Majors",
+            "CourseDescription": "This course introduces the student to the basic critical research, writing, reasoning, communication skills and tools needed for success in a  professional business environment.",
+            "Credits": 5.0000
+          },
+          {
+            "AdCourseID": 501857,
+            "CourseCode": "CM226",
+            "CourseTitle": "College Composition II for IT Majors",
+            "CourseDescription": "This course is designed to help students develop academic writing skills applicable to the field of information technology. Students will learn to apply problem-solving and critical thinking skills and formal research in the development of effective arguments. \r\n",
+            "Credits": 5.0000
+          },
+          {
+            "AdCourseID": 501859,
+            "CourseCode": "CM229",
+            "CourseTitle": "College Composition II for the Health Care Professional",
+            "CourseDescription": "This course helps students apply research and critical thinking skills to develop effective arguments. Students will create professional writings, incorporating postdraft revision strategies, working constructively with colleagues.\r\n",
+            "Credits": 5.0000
+          },
+          {
+            "AdCourseID": 508205,
+            "CourseCode": "CMO220X",
+            "CourseTitle": "Course Assessment for College Composition II",
+            "CourseDescription": "",
+            "Credits": 5.0000
+          }
+        ],
+        "CreditsEarned": 5.00,
+        "History": [
+          {
+            "Program": "XXXIX! AS in Health Science",
+            "Status": "Graduate",
+            "StartDate": "2014-04-16T00:00:00",
+            "Courses": [
+              {
+                "Title": "College Composition II",
+                "Code": "CM220",
+                "Term": "1403B",
+                "Grade": "D",
+                "Associate": true
+              }
+            ]
+          }
+        ],
+        "ParentId": 42262
+      },
+      {
+        "AdEnrollId": 2702521,
+        "AdCourseId": 506379,
+        "Grade": "A",
+        "Status": "P",
+        "AdEnrollSchedId": 41872022,
+        "Title": "Associates Capstone in Health Science",
+        "Code": "HS290",
+        "IsAvailableForAssociation": true,
+        "Term": "1403B",
+        "EquivalentCourses": [],
+        "CreditsEarned": 5.00,
+        "History": [
+          {
+            "Program": "XXXIX! AS in Health Science",
+            "Status": "Graduate",
+            "StartDate": "2014-04-16T00:00:00",
+            "Courses": [
+              {
+                "Title": "Associates Capstone in Health Science",
+                "Code": "HS290",
+                "Term": "1403B",
+                "Grade": "A",
+                "Associate": true
+              }
+            ]
+          }
+        ],
+        "ParentId": null
+      },
+      {
+        "AdEnrollId": 2702521,
+        "AdCourseId": 42290,
+        "Grade": "B",
+        "Status": "P",
+        "AdEnrollSchedId": 42998506,
+        "Title": "Ethics",
+        "Code": "HU245",
+        "IsAvailableForAssociation": true,
+        "Term": "1404B",
+        "EquivalentCourses": [
+          {
+            "AdCourseID": 499700,
+            "CourseCode": "HU245>",
+            "CourseTitle": "Ethics",
+            "CourseDescription": "",
+            "Credits": 3.0000
+          },
+          {
+            "AdCourseID": 509151,
+            "CourseCode": "HU245X",
+            "CourseTitle": "Course Assessment for Ethics",
+            "CourseDescription": "",
+            "Credits": 5.0000
+          }
+        ],
+        "CreditsEarned": 5.00,
+        "History": [
+          {
+            "Program": "XXXIX! AS in Health Science",
+            "Status": "Graduate",
+            "StartDate": "2014-04-16T00:00:00",
+            "Courses": [
+              {
+                "Title": "Ethics",
+                "Code": "HU245",
+                "Term": "1404B",
+                "Grade": "B",
+                "Associate": true
+              }
+            ]
+          }
+        ],
+        "ParentId": 42290
+      },
+      {
+        "AdEnrollId": 2702521,
+        "AdCourseId": 375342,
+        "Grade": "B+",
+        "Status": "P",
+        "AdEnrollSchedId": 41872020,
+        "Title": "College Composition I",
+        "Code": "CM107",
+        "IsAvailableForAssociation": true,
+        "Term": "1402B",
+        "EquivalentCourses": [
+          {
+            "AdCourseID": 42342,
+            "CourseCode": "CM102=",
+            "CourseTitle": "Effective Writing I",
+            "CourseDescription": "",
+            "Credits": 5.0000
+          },
+          {
+            "AdCourseID": 499611,
+            "CourseCode": "CM102>",
+            "CourseTitle": "College Composition I",
+            "CourseDescription": "\r\n",
+            "Credits": 3.0000
+          },
+          {
+            "AdCourseID": 375338,
+            "CourseCode": "CM103",
+            "CourseTitle": "College Composition I-Effective Writing I for Criminal Justice Majors",
+            "CourseDescription": "This course is designed to illustrate how writing is used within the criminal justice field. Using a problem based model, students will learn how to communicate effectively by applying various writing styles to real-world issues. Additionally, they will identify and further develop their own writing process. Grammar, mechanics, effective paragraph construction, source use, and APA formatting and documentation standards will be reviewed, helping students focus on areas that will improve their writing.",
+            "Credits": 5.0000
+          },
+          {
+            "AdCourseID": 375339,
+            "CourseCode": "CM104",
+            "CourseTitle": "College Comp I- Effective Writing I for Legal Studies Majors",
+            "CourseDescription": "Students will learn how to communicate effectively in their professional field using various writing styles. Students will also identify and further develop their own writing process. Grammar and mechanics will be reviewed, helping students focus on the areas that will improve their writing.\r\n",
+            "Credits": 5.0000
+          },
+          {
+            "AdCourseID": 375340,
+            "CourseCode": "CM105",
+            "CourseTitle": "College Composition I for Business Majors",
+            "CourseDescription": "Students will learn how to communicate effectively in their professional field using various writing styles. Students will also identify and further develop their own writing process. Grammar and mechanics will be reviewed, helping students focus on the areas that will improve their writing.\r\n",
+            "Credits": 5.0000
+          },
+          {
+            "AdCourseID": 375341,
+            "CourseCode": "CM106",
+            "CourseTitle": "College Comp I-Effective Writing I for IT Majors",
+            "CourseDescription": "Students will learn how to communicate effectively in their professional field using various writing styles. Students will also identify and further develop their own writing process. Grammar and mechanics will be reviewed, helping students focus on the areas that will improve their writing.\r\n",
+            "Credits": 5.0000
+          },
+          {
+            "AdCourseID": 509021,
+            "CourseCode": "CM107W5",
+            "CourseTitle": "College Composition I",
+            "CourseDescription": "Building on your existing writing strengths will help develop a foundation for a successful education and career. You will learn strategies to express yourself with confidence and communicate your ideas effectively in personal, academic, and professional situations.",
+            "Credits": 5.0000
+          },
+          {
+            "AdCourseID": 504162,
+            "CourseCode": "CM107X",
+            "CourseTitle": "Course Assessment for College Composition I",
+            "CourseDescription": "",
+            "Credits": 5.0000
+          },
+          {
+            "AdCourseID": 21448,
+            "CourseCode": "CM109",
+            "CourseTitle": "College Composition I-Effective Writing I for the Health Care Professional",
+            "CourseDescription": "Students will learn how to communicate effectively in their professional field using various writing styles. Students will also identify and further develop their own writing process. Grammar and mechanics will be reviewed, helping students focus on the areas that will improve their writing.\r\n",
+            "Credits": 5.0000
+          },
+          {
+            "AdCourseID": 508204,
+            "CourseCode": "CMO107X",
+            "CourseTitle": "Course Assessment for College Composition I",
+            "CourseDescription": "",
+            "Credits": 5.0000
+          },
+          {
+            "AdCourseID": 20500,
+            "CourseCode": "GE101",
+            "CourseTitle": "RHETORIC AND COMP I",
+            "CourseDescription": "",
+            "Credits": 3.0000
+          }
+        ],
+        "CreditsEarned": 5.00,
+        "History": [
+          {
+            "Program": "XXXIX! AS in Health Science",
+            "Status": "Graduate",
+            "StartDate": "2014-04-16T00:00:00",
+            "Courses": [
+              {
+                "Title": "College Composition I",
+                "Code": "CM107",
+                "Term": "1402B",
+                "Grade": "B+",
+                "Associate": true
+              }
+            ]
+          }
+        ],
+        "ParentId": 375342
+      },
+      {
+        "AdEnrollId": 2702521,
+        "AdCourseId": 501632,
+        "Grade": "C+",
+        "Status": "P",
+        "AdEnrollSchedId": 41884697,
+        "Title": "Survey of Mathematics",
+        "Code": "MM150",
+        "IsAvailableForAssociation": true,
+        "Term": "1402B",
+        "EquivalentCourses": [
+          {
+            "AdCourseID": 509022,
+            "CourseCode": "MM150W5",
+            "CourseTitle": "Survey of Mathematics",
+            "CourseDescription": "Students will improve their background in mathematical concepts and skills utilizing real-world scenarios to solve math problems. Students will also enhance their own knowledge by demonstrating the ability to explain and interpret concepts, which is a valued skill in many fields. The topics may include sets, variables, measurement, and statistics.",
+            "Credits": 5.0000
+          },
+          {
+            "AdCourseID": 499612,
+            "CourseCode": "MM180>",
+            "CourseTitle": "College Mathematics",
+            "CourseDescription": "",
+            "Credits": 3.0000
+          },
+          {
+            "AdCourseID": 499613,
+            "CourseCode": "MM201>",
+            "CourseTitle": "College Algebra",
+            "CourseDescription": "",
+            "Credits": 3.0000
+          },
+          {
+            "AdCourseID": 500869,
+            "CourseCode": "MMELE5.1",
+            "CourseTitle": "Mathematics Elective",
+            "CourseDescription": "",
+            "Credits": 5.0000
+          }
+        ],
+        "CreditsEarned": 5.00,
+        "History": [
+          {
+            "Program": "XXXIX! AS in Health Science",
+            "Status": "Graduate",
+            "StartDate": "2014-04-16T00:00:00",
+            "Courses": [
+              {
+                "Title": "Survey of Mathematics",
+                "Code": "MM150",
+                "Term": "1402B",
+                "Grade": "C+",
+                "Associate": true
+              }
+            ]
+          }
+        ],
+        "ParentId": 501632
+      }
+    ]
+  }
+]

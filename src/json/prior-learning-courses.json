@@ -1,0 +1,302 @@
+[
+  {
+    "InstitutionID": 15822,
+    "InstitutionName": "Purdue Global",
+    "Courses": [
+      {
+        "AdEnrollId": 2883009,
+        "AdCourseId": 20056,
+        "Grade": "TC",
+        "Status": "P",
+        "AdEnrollSchedId": 45093909,
+        "Title": "Prior Associates Degree",
+        "Code": "ASSOC-90.1",
+        "IsAvailableForAssociation": true,
+        "Term": "TC",
+        "EquivalentCourses": [],
+        "CreditsEarned": 90.00,
+        "History": [
+          {
+            "Program": "XLIII! Adv. BS in Health Science",
+            "Status": "Drop",
+            "StartDate": "2015-08-26T00:00:00",
+            "Courses": [
+              {
+                "Title": "Prior Associates Degree",
+                "Code": "ASSOC-90.1",
+                "Term": "TC",
+                "Grade": "TC",
+                "Associate": true
+              }
+            ]
+          }
+        ],
+        "ParentId": null
+      },
+      {
+        "AdEnrollId": 2883009,
+        "AdCourseId": 500843,
+        "Grade": "EC",
+        "Status": "P",
+        "AdEnrollSchedId": 45105776,
+        "Title": "Health Science Elective Pool",
+        "Code": "HSELE.05",
+        "IsAvailableForAssociation": true,
+        "Term": "TC",
+        "EquivalentCourses": [],
+        "CreditsEarned": 6.00,
+        "History": [
+          {
+            "Program": "XLIII! Adv. BS in Health Science",
+            "Status": "Drop",
+            "StartDate": "2015-08-26T00:00:00",
+            "Courses": [
+              {
+                "Title": "Health Science Elective Pool",
+                "Code": "HSELE.05",
+                "Term": "TC",
+                "Grade": "EC",
+                "Associate": true
+              }
+            ]
+          }
+        ],
+        "ParentId": null
+      },
+      {
+        "AdEnrollId": 2883009,
+        "AdCourseId": 504290,
+        "Grade": "EC",
+        "Status": "P",
+        "AdEnrollSchedId": 45105875,
+        "Title": "Transfer Credit",
+        "Code": "TC2.0",
+        "IsAvailableForAssociation": true,
+        "Term": "TC",
+        "EquivalentCourses": [],
+        "CreditsEarned": 2.00,
+        "History": [
+          {
+            "Program": "XLIII! Adv. BS in Health Science",
+            "Status": "Drop",
+            "StartDate": "2015-08-26T00:00:00",
+            "Courses": [
+              {
+                "Title": "Transfer Credit",
+                "Code": "TC2.0",
+                "Term": "TC",
+                "Grade": "EC",
+                "Associate": true
+              }
+            ]
+          }
+        ],
+        "ParentId": null
+      },
+      {
+        "AdEnrollId": 2702521,
+        "AdCourseId": 507648,
+        "Grade": "EC",
+        "Status": "P",
+        "AdEnrollSchedId": 41932907,
+        "Title": "Transfer Credit",
+        "Code": "TC20.1",
+        "IsAvailableForAssociation": true,
+        "Term": "TC",
+        "EquivalentCourses": [],
+        "CreditsEarned": 20.00,
+        "History": [
+          {
+            "Program": "XXXIX! AS in Health Science",
+            "Status": "Graduate",
+            "StartDate": "2014-04-16T00:00:00",
+            "Courses": [
+              {
+                "Title": "Transfer Credit",
+                "Code": "TC20.1",
+                "Term": "TC",
+                "Grade": "EC",
+                "Associate": true
+              }
+            ]
+          }
+        ],
+        "ParentId": null
+      },
+      {
+        "AdEnrollId": 2883009,
+        "AdCourseId": 504300,
+        "Grade": "EC",
+        "Status": "P",
+        "AdEnrollSchedId": 45105820,
+        "Title": "Transfer Credit",
+        "Code": "TC3.0",
+        "IsAvailableForAssociation": true,
+        "Term": "TC",
+        "EquivalentCourses": [],
+        "CreditsEarned": 3.00,
+        "History": [
+          {
+            "Program": "XLIII! Adv. BS in Health Science",
+            "Status": "Drop",
+            "StartDate": "2015-08-26T00:00:00",
+            "Courses": [
+              {
+                "Title": "Transfer Credit",
+                "Code": "TC3.0",
+                "Term": "TC",
+                "Grade": "EC",
+                "Associate": true
+              }
+            ]
+          }
+        ],
+        "ParentId": null
+      },
+      {
+        "AdEnrollId": 2702521,
+        "AdCourseId": 507647,
+        "Grade": "EC",
+        "Status": "P",
+        "AdEnrollSchedId": 41932909,
+        "Title": "Transfer Credit",
+        "Code": "TC45.1",
+        "IsAvailableForAssociation": true,
+        "Term": "TC",
+        "EquivalentCourses": [],
+        "CreditsEarned": 45.00,
+        "History": [
+          {
+            "Program": "XXXIX! AS in Health Science",
+            "Status": "Graduate",
+            "StartDate": "2014-04-16T00:00:00",
+            "Courses": [
+              {
+                "Title": "Transfer Credit",
+                "Code": "TC45.1",
+                "Term": "TC",
+                "Grade": "EC",
+                "Associate": true
+              }
+            ]
+          }
+        ],
+        "ParentId": null
+      }
+    ]
+  },
+  {
+    "InstitutionID": 15844,
+    "InstitutionName": "Army/ACE",
+    "Courses": [
+      {
+        "MilitaryCourseNo": "750-BT",
+        "Code": "750-BT",
+        "ACEExhibitNo": "AR-2201-0399",
+        "ACECreditRecommendation": "First Aid",
+        "Level": "L",
+        "SkillLevel": null,
+        "Credits": 1.00,
+        "CreditTypeId": 2,
+        "ID": 613,
+        "Title": "Basic Combat Training",
+        "Month": 5,
+        "Year": 1998,
+        "Age": 20.67,
+        "Official": true,
+        "Blacklisted": false,
+        "AvailableForTransfer": true
+      },
+      {
+        "MilitaryCourseNo": "750-BT",
+        "Code": "750-BT",
+        "ACEExhibitNo": "AR-2201-0399",
+        "ACECreditRecommendation": "Marksmanship",
+        "Level": "L",
+        "SkillLevel": null,
+        "Credits": 1.00,
+        "CreditTypeId": 2,
+        "ID": 614,
+        "Title": "Basic Combat Training",
+        "Month": 5,
+        "Year": 1998,
+        "Age": 20.67,
+        "Official": true,
+        "Blacklisted": false,
+        "AvailableForTransfer": true
+      },
+      {
+        "MilitaryCourseNo": "750-BT",
+        "Code": "750-BT",
+        "ACEExhibitNo": "AR-2201-0399",
+        "ACECreditRecommendation": "Outdoor Skills Practicum",
+        "Level": "L",
+        "SkillLevel": null,
+        "Credits": 1.00,
+        "CreditTypeId": 2,
+        "ID": 615,
+        "Title": "Basic Combat Training",
+        "Month": 5,
+        "Year": 1998,
+        "Age": 20.67,
+        "Official": true,
+        "Blacklisted": false,
+        "AvailableForTransfer": true
+      },
+      {
+        "MilitaryCourseNo": "750-BT",
+        "Code": "750-BT",
+        "ACEExhibitNo": "AR-2201-0399",
+        "ACECreditRecommendation": "Personal Physical Conditioning",
+        "Level": "L",
+        "SkillLevel": null,
+        "Credits": 1.00,
+        "CreditTypeId": 2,
+        "ID": 616,
+        "Title": "Basic Combat Training",
+        "Month": 5,
+        "Year": 1998,
+        "Age": 20.67,
+        "Official": true,
+        "Blacklisted": false,
+        "AvailableForTransfer": true
+      },
+      {
+        "MilitaryCourseNo": "611-63E10",
+        "Code": "611-63E10",
+        "ACEExhibitNo": "AR-1704-0142",
+        "ACECreditRecommendation": "Brake Systems",
+        "Level": "L",
+        "SkillLevel": null,
+        "Credits": 2.00,
+        "CreditTypeId": 2,
+        "ID": 617,
+        "Title": "M1 Abrams Tank Systems Mechanic",
+        "Month": 8,
+        "Year": 1998,
+        "Age": 20.42,
+        "Official": true,
+        "Blacklisted": false,
+        "AvailableForTransfer": true
+      },
+      {
+        "MilitaryCourseNo": "611-63E10",
+        "Code": "611-63E10",
+        "ACEExhibitNo": "AR-1704-0142",
+        "ACECreditRecommendation": "Diesel Engines",
+        "Level": "L",
+        "SkillLevel": null,
+        "Credits": 1.00,
+        "CreditTypeId": 2,
+        "ID": 618,
+        "Title": "M1 Abrams Tank Systems Mechanic",
+        "Month": 8,
+        "Year": 1998,
+        "Age": 20.42,
+        "Official": true,
+        "Blacklisted": false,
+        "AvailableForTransfer": true
+      }
+    ]
+  }
+]

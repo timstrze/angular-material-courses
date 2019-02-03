@@ -1,22 +1,135 @@
 <div class="grid-container">
-  <h1 class="mat-h1">Dashboard</h1>
-  <mat-grid-list cols="2" rowHeight="350px">
-    <mat-grid-tile *ngFor="let card of cards | async" [colspan]="card.cols" [rowspan]="card.rows">
+  <!--<h1 class="mat-h1">Dashboard</h1>-->
+  <mat-grid-list cols="2" rowHeight="450px">
+    <mat-grid-tile colspan="2" rowspan="1">
       <mat-card class="dashboard-card">
         <mat-card-header>
           <mat-card-title>
-            {{card.title}}
-            <button mat-icon-button class="more-button" [matMenuTriggerFor]="menu" aria-label="Toggle menu">
+            Programs of Interest
+            <button mat-icon-button class="more-button" [matMenuTriggerFor]="dashboardMenu" aria-label="Toggle menu">
               <mat-icon>more_vert</mat-icon>
             </button>
-            <mat-menu #menu="matMenu" xPosition="before">
-              <button mat-menu-item>Expand</button>
+            <mat-menu #dashboardMenu="matMenu" xPosition="before">
+              <button (click)="openDialog()" mat-menu-item>Add Program</button>
+            </mat-menu>
+          </mat-card-title>
+        </mat-card-header>
+        <mat-card-content class="dashboard-card-content">
+          <mat-accordion>
+            <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  Human Resources Postbaccalaureate Certificate
+                </mat-panel-title>
+                <mat-panel-description>
+                  <!--Type your name and age-->
+                </mat-panel-description>
+              </mat-expansion-panel-header>
+
+              <mat-form-field>
+                <input matInput placeholder="First name">
+              </mat-form-field>
+
+              <mat-form-field>
+                <input matInput placeholder="Age">
+              </mat-form-field>
+            </mat-expansion-panel>
+            <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  Graduate Certificate in Human Resources
+                </mat-panel-title>
+                <mat-panel-description>
+                  <!--Type your name and age-->
+                </mat-panel-description>
+              </mat-expansion-panel-header>
+
+              <mat-form-field>
+                <input matInput placeholder="First name">
+              </mat-form-field>
+
+              <mat-form-field>
+                <input matInput placeholder="Age">
+              </mat-form-field>
+            </mat-expansion-panel>
+            <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  Master of Science in Management - Project Management
+                </mat-panel-title>
+                <mat-panel-description>
+                  <!--Type your name and age-->
+                </mat-panel-description>
+              </mat-expansion-panel-header>
+
+              <mat-form-field>
+                <input matInput placeholder="First name">
+              </mat-form-field>
+
+              <mat-form-field>
+                <input matInput placeholder="Age">
+              </mat-form-field>
+            </mat-expansion-panel>
+            <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  Master of Science in Management - Leadership
+                </mat-panel-title>
+                <mat-panel-description>
+                  <!--Type your name and age-->
+                </mat-panel-description>
+              </mat-expansion-panel-header>
+
+              <mat-form-field>
+                <input matInput placeholder="First name">
+              </mat-form-field>
+
+              <mat-form-field>
+                <input matInput placeholder="Age">
+              </mat-form-field>
+            </mat-expansion-panel>
+          </mat-accordion>
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="1" rowspan="1">
+      <mat-card class="dashboard-card">
+        <mat-card-header>
+          <mat-card-title>
+            Charts
+            <button mat-icon-button class="more-button" [matMenuTriggerFor]="chartMenu" aria-label="Toggle menu">
+              <mat-icon>more_vert</mat-icon>
+            </button>
+            <mat-menu #chartMenu="matMenu" xPosition="before">
+              <button mat-menu-item>Add</button>
               <button mat-menu-item>Remove</button>
             </mat-menu>
           </mat-card-title>
         </mat-card-header>
         <mat-card-content class="dashboard-card-content">
-          <div>Card Content Here</div>
+
+          <div [chart]="chart"></div>
+
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="1" rowspan="1">
+      <mat-card class="dashboard-card">
+        <mat-card-header>
+          <mat-card-title>
+            Tools
+            <button mat-icon-button class="more-button" [matMenuTriggerFor]="toolsMenu" aria-label="Toggle menu">
+              <mat-icon>more_vert</mat-icon>
+            </button>
+            <mat-menu #toolsMenu="matMenu" xPosition="before">
+              <button mat-menu-item>Add</button>
+              <button mat-menu-item>Remove</button>
+            </mat-menu>
+          </mat-card-title>
+        </mat-card-header>
+        <mat-card-content class="dashboard-card-content">
+
+
         </mat-card-content>
       </mat-card>
     </mat-grid-tile>
