@@ -19,22 +19,29 @@
             <mat-expansion-panel>
               <mat-expansion-panel-header>
                 <mat-panel-title>
-                  Human Resources Postbaccalaureate Certificate
+                  Cisco Networks Postbaccalaureate Certificate
                 </mat-panel-title>
                 <mat-panel-description>
                   <!--Type your name and age-->
                 </mat-panel-description>
               </mat-expansion-panel-header>
 
-              <mat-form-field>
-                <input matInput placeholder="First name">
-              </mat-form-field>
+              <mat-chip-list>
+                <mat-chip>ASSOC-90.1</mat-chip>
+                <mat-chip>MM150</mat-chip>
+                <mat-chip>MM250</mat-chip>
+                <mat-chip>MM201</mat-chip>
+                <mat-chip color="primary" selected>HS290</mat-chip>
+                <mat-chip color="accent" selected>CM220</mat-chip>
+              </mat-chip-list>
 
-              <mat-form-field>
-                <input matInput placeholder="Age">
-              </mat-form-field>
+
+              <h4>Progress: 3 out of 44 credits</h4>
+
+              <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
+
             </mat-expansion-panel>
-            <mat-expansion-panel>
+            <mat-expansion-panel [expanded]="true">
               <mat-expansion-panel-header>
                 <mat-panel-title>
                   Graduate Certificate in Human Resources
@@ -44,13 +51,17 @@
                 </mat-panel-description>
               </mat-expansion-panel-header>
 
-              <mat-form-field>
-                <input matInput placeholder="First name">
-              </mat-form-field>
+              <mat-chip-list>
+                <mat-chip>TC6.1</mat-chip>
+                <mat-chip>CM222</mat-chip>
+                <mat-chip color="accent" selected>CM226</mat-chip>
+                <mat-chip color="accent" selected>CM229</mat-chip>
+              </mat-chip-list>
 
-              <mat-form-field>
-                <input matInput placeholder="Age">
-              </mat-form-field>
+              <h4>Progress: 16 out of 42 credits</h4>
+
+              <mat-progress-bar mode="determinate" value="20"></mat-progress-bar>
+
             </mat-expansion-panel>
             <mat-expansion-panel>
               <mat-expansion-panel-header>
@@ -62,13 +73,23 @@
                 </mat-panel-description>
               </mat-expansion-panel-header>
 
-              <mat-form-field>
-                <input matInput placeholder="First name">
-              </mat-form-field>
+              <mat-chip-list>
+                <mat-chip>MM100</mat-chip>
+                <mat-chip>MM110</mat-chip>
+                <mat-chip>MM120</mat-chip>
+                <mat-chip>MM130</mat-chip>
+                <mat-chip>MM140</mat-chip>
+                <mat-chip>MM150</mat-chip>
+                <mat-chip>MM160</mat-chip>
+                <mat-chip>MM170</mat-chip>
+                <mat-chip>MM180</mat-chip>
+                <mat-chip>MM190</mat-chip>
+              </mat-chip-list>
 
-              <mat-form-field>
-                <input matInput placeholder="Age">
-              </mat-form-field>
+              <h4>Progress: 22 out of 44 credits</h4>
+
+              <mat-progress-bar mode="determinate" value="50"></mat-progress-bar>
+
             </mat-expansion-panel>
             <mat-expansion-panel>
               <mat-expansion-panel-header>
@@ -80,13 +101,21 @@
                 </mat-panel-description>
               </mat-expansion-panel-header>
 
-              <mat-form-field>
-                <input matInput placeholder="First name">
-              </mat-form-field>
+              <mat-chip-list>
+                <mat-chip>MM100</mat-chip>
+                <mat-chip>MM110</mat-chip>
+                <mat-chip>MM120</mat-chip>
+                <mat-chip>MM130</mat-chip>
+                <mat-chip>MM140</mat-chip>
+                <mat-chip>MM150</mat-chip>
+                <mat-chip>MM160</mat-chip>
+                <mat-chip>MM170</mat-chip>
+                <mat-chip>MM180</mat-chip>
+                <mat-chip>MM190</mat-chip>
+              </mat-chip-list>
 
-              <mat-form-field>
-                <input matInput placeholder="Age">
-              </mat-form-field>
+              <h4>Progress: 0 out of 38 credits</h4>
+
             </mat-expansion-panel>
           </mat-accordion>
         </mat-card-content>
@@ -101,14 +130,12 @@
               <mat-icon>more_vert</mat-icon>
             </button>
             <mat-menu #chartMenu="matMenu" xPosition="before">
-              <button mat-menu-item>Add</button>
-              <button mat-menu-item>Remove</button>
+              <button mat-menu-item>Line Graph</button>
+              <button mat-menu-item>Bar Chart</button>
             </mat-menu>
           </mat-card-title>
         </mat-card-header>
         <mat-card-content class="dashboard-card-content">
-
-          <div [chart]="chart"></div>
 
         </mat-card-content>
       </mat-card>
@@ -128,7 +155,6 @@
           </mat-card-title>
         </mat-card-header>
         <mat-card-content class="dashboard-card-content">
-
 
         </mat-card-content>
       </mat-card>

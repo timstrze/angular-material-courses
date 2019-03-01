@@ -11,14 +11,14 @@
           <mat-icon>more_vert</mat-icon>
         </button>
         <mat-menu #dashboardMenu="matMenu" xPosition="before">
-          <button mat-menu-item>Add College</button>
+          <button (click)="openInstitutionDialog()" mat-menu-item>Add College</button>
         </mat-menu>
       </mat-toolbar-row>
     </mat-toolbar>
     <mat-nav-list dense *ngFor="let institution of priorLearningInstitutions$ | async">
       <mat-divider></mat-divider>
       <h3 matSubheader>{{institution.InstitutionName}}</h3>
-      <button mat-button>Add Course</button>
+      <button mat-button (click)="openCourseDialog()">Add Course</button>
       <a mat-list-item *ngFor="let course of institution.Courses">{{course.Code}}</a>
     </mat-nav-list>
   </mat-sidenav>
@@ -33,6 +33,9 @@
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
       <span>Transfer Credits Evaluation Tool</span>
+      <span class="icon-spacer"></span>
+      <mat-icon class="user-icon">favorite</mat-icon>
+      <mat-icon matBadge="15" matBadgeColor="warn">home</mat-icon>
     </mat-toolbar>
     <!-- Add Content Here -->
     <app-dashboard></app-dashboard>

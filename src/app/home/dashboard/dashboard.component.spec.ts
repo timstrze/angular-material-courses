@@ -3,10 +3,11 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import {
   MatButtonModule,
-  MatCardModule,
+  MatCardModule, MatExpansionModule,
   MatGridListModule,
   MatIconModule,
   MatMenuModule,
+  MatFormFieldModule, MatDialogModule, MatInputModule
 } from '@angular/material';
 
 import { DashboardComponent } from './dashboard.component';
@@ -26,6 +27,10 @@ describe('DashboardComponent', () => {
         MatGridListModule,
         MatIconModule,
         MatMenuModule,
+        MatExpansionModule,
+        MatFormFieldModule,
+        MatDialogModule,
+        MatInputModule
       ]
     }).compileComponents();
   }));

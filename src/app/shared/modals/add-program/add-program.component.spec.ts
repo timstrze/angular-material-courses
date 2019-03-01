@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { AddProgramComponent } from './add-program.component';
+import {MAT_DIALOG_DATA, MatDialogModule, MatDialogRef} from '@angular/material';
 
 describe('AddProgramComponent', () => {
   let component: AddProgramComponent;
@@ -8,7 +9,18 @@ describe('AddProgramComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AddProgramComponent ]
+      declarations: [ AddProgramComponent ],
+      imports: [
+        MatDialogModule
+      ],
+      providers: [
+        {
+          provide: MatDialogRef, useValue: {}
+        },
+        {
+          provide: MAT_DIALOG_DATA, useValue: {}
+        }
+      ]
     })
     .compileComponents();
   }));

@@ -1,9 +1,9 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
 
-import { HomeRoutingModule } from './home-routing.module';
-import { NavigationComponent } from './navigation/navigation.component';
-import { LayoutModule } from '@angular/cdk/layout';
+import {HomeRoutingModule} from './home-routing.module';
+import {NavigationComponent} from './navigation/navigation.component';
+import {LayoutModule} from '@angular/cdk/layout';
 import {
   MatToolbarModule,
   MatButtonModule,
@@ -13,14 +13,21 @@ import {
   MatGridListModule,
   MatCardModule,
   MatMenuModule,
-  MatExpansionModule, MatFormFieldModule, MatInputModule, MatDialogModule
+  MatExpansionModule,
+  MatFormFieldModule,
+  MatInputModule,
+  MatDialogModule,
+  MatChipsModule,
+  MatProgressBarModule,
+  MatBadgeModule,
+  MatSelectModule
 } from '@angular/material';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import {DragDropModule} from '@angular/cdk/drag-drop';
-import {ChartModule} from 'angular-highcharts';
+import {DashboardComponent} from './dashboard/dashboard.component';
+import { AddInstitutionComponent } from '../shared/modals/add-institution/add-institution.component';
+import { AddCourseComponent } from '../shared/modals/add-course/add-course.component';
 
 @NgModule({
-  declarations: [NavigationComponent, DashboardComponent],
+  declarations: [NavigationComponent, DashboardComponent, AddInstitutionComponent, AddCourseComponent],
   imports: [
     CommonModule,
     HomeRoutingModule,
@@ -36,9 +43,14 @@ import {ChartModule} from 'angular-highcharts';
     MatExpansionModule,
     MatFormFieldModule,
     MatInputModule,
-    DragDropModule,
     MatDialogModule,
-    ChartModule
-  ]
+    MatChipsModule,
+    MatProgressBarModule,
+    MatBadgeModule,
+    MatFormFieldModule,
+    MatSelectModule
+  ],
+  entryComponents: [AddInstitutionComponent, AddCourseComponent]
 })
-export class HomeModule { }
+export class HomeModule {
+}
