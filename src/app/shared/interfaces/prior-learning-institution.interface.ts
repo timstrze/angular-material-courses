@@ -1,7 +1,7 @@
-import {PriorLearningCourse} from './prior-learning-course.interface';
+import {IPriorLearningCourse} from './prior-learning-course.interface';
 
-export interface PriorLearningInstitution {
+export interface IPriorLearningInstitution {
   'InstitutionID': number;
   'InstitutionName': string;
-  'Courses': PriorLearningCourse[];
+  'Courses': IPriorLearningCourse[];
 }

@@ -1,33 +1,5 @@
 [
   {
-    "Degree": "Graduate Level Certificate",
-    "AdProgramVersionID": 452637,
-    "ProgramVersionName": "Blueprint XXV# Graduate Certificate in Accounting",
-    "TranscriptDescription": "Graduate Certificate in Accounting",
-    "Program": "Accounting"
-  },
-  {
-    "Degree": "Graduate Level Certificate",
-    "AdProgramVersionID": 452640,
-    "ProgramVersionName": "Blueprint XXV# Graduate Certificate in Project Management",
-    "TranscriptDescription": "Graduate Certificate in Project Management",
-    "Program": "Management"
-  },
-  {
-    "Degree": "Graduate Level Certificate",
-    "AdProgramVersionID": 452638,
-    "ProgramVersionName": "Blueprint XXV# Graduate Certificate in Human Resources",
-    "TranscriptDescription": "Graduate Certificate in Human Resources",
-    "Program": "Business Administration"
-  },
-  {
-    "Degree": "Certificate",
-    "AdProgramVersionID": 452639,
-    "ProgramVersionName": "Blueprint XXV# Human Resources Postbaccalaureate Certificate",
-    "TranscriptDescription": "Human Resources Postbaccalaureate Certificate",
-    "Program": "Business Administration"
-  },
-  {
     "Degree": "Certificate",
     "AdProgramVersionID": 452730,
     "ProgramVersionName": "Blueprint XXV# Cisco Networks Postbaccalaureate Certificate",
@@ -53,48 +25,6 @@
     "AdProgramVersionID": 452277,
     "ProgramVersionName": "Blueprint XXV# Master of Science in Management - Leadership",
     "TranscriptDescription": "Master of Science in Management - Leadership",
-    "Program": "Management"
-  },
-  {
-    "Degree": "Master of Science",
-    "AdProgramVersionID": 452278,
-    "ProgramVersionName": "Blueprint XXV# Master of Science in Management - Organizational Design and Development",
-    "TranscriptDescription": "Master of Science in Management - Organizational Design and Development",
-    "Program": "Management"
-  },
-  {
-    "Degree": "Master of Science",
-    "AdProgramVersionID": 452279,
-    "ProgramVersionName": "Blueprint XXV# Master of Science in Management - Project Management ",
-    "TranscriptDescription": "Master of Science in Management - Project Management",
-    "Program": "Management"
-  },
-  {
-    "Degree": "Master of Science",
-    "AdProgramVersionID": 452273,
-    "ProgramVersionName": "Blueprint XXV# Master of Science in Management - Health Care Management",
-    "TranscriptDescription": "Master of Science in Management - Health Care Management",
-    "Program": "Management"
-  },
-  {
-    "Degree": "Master of Science",
-    "AdProgramVersionID": 452274,
-    "ProgramVersionName": "Blueprint XXV# Master of Science in Management - Health Care Management Track A,B,C",
-    "TranscriptDescription": "Master of Science in Management - Health Care Management",
-    "Program": "Management"
-  },
-  {
-    "Degree": "Master of Science",
-    "AdProgramVersionID": 452275,
-    "ProgramVersionName": "Blueprint XXV# Master of Science in Management - Human Resources",
-    "TranscriptDescription": "Master of Science in Management - Human Resources",
-    "Program": "Management"
-  },
-  {
-    "Degree": "Master of Science",
-    "AdProgramVersionID": 452276,
-    "ProgramVersionName": "Blueprint XXV# Master of Science in Management - Information Technology",
-    "TranscriptDescription": "Master of Science in Management - Information Technology",
     "Program": "Management"
   }
 ]

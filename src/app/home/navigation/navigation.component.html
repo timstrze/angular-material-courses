@@ -18,7 +18,7 @@
     <mat-nav-list dense *ngFor="let institution of priorLearningInstitutions$ | async">
       <mat-divider></mat-divider>
       <h3 matSubheader>{{institution.InstitutionName}}</h3>
-      <button mat-button (click)="openCourseDialog()">Add Course</button>
+      <button mat-button (click)="openCourseDialog(institution)">Add Course</button>
       <a mat-list-item *ngFor="let course of institution.Courses">{{course.Code}}</a>
     </mat-nav-list>
   </mat-sidenav>

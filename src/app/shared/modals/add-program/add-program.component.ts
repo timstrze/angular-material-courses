@@ -5,8 +5,7 @@ import {Observable} from 'rxjs';
 import {map, startWith} from 'rxjs/operators';
 
 export interface DialogData {
-  animal: string;
-  name: string;
+  institution: any;
 }
 
 @Component({

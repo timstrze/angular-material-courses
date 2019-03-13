@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {Store} from '@ngxs/store';
+import {AddPriorLearningInstitution} from '../../../actions/prior-learning-institution.actions';
 
 @Component({
   selector: 'app-add-institution',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AddInstitutionComponent implements OnInit {
 
-  constructor() { }
+  constructor(private store: Store) { }
 
   ngOnInit() {
+  }
+
+  addInstitution() {
+    this.store.dispatch(new AddPriorLearningInstitution({
+      InstitutionName: 'InstitutionName',
+      Courses: []
+    }));
   }
 
 }

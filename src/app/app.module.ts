@@ -14,8 +14,8 @@ import {MatAutocompleteModule, MatFormFieldModule, MatInputModule} from '@angula
 import {NgxsModule} from '@ngxs/store';
 import {NgxsReduxDevtoolsPluginModule} from '@ngxs/devtools-plugin';
 import {NgxsLoggerPluginModule} from '@ngxs/logger-plugin';
-// import {PriorLearningCourseState} from './state/prior-learning-course.state';
 import {PriorLearningInstitutionState} from './state/prior-learning-institution.state';
+import {ProgramState} from './state/program.state';
 
 @NgModule({
   declarations: [
@@ -33,11 +33,16 @@ import {PriorLearningInstitutionState} from './state/prior-learning-institution.
     MatInputModule,
     MatAutocompleteModule,
     NgxsModule.forRoot([
-      // PriorLearningCourseState,
-      PriorLearningInstitutionState
+      PriorLearningInstitutionState,
+      ProgramState
     ], { developmentMode: !environment.production }),
-    NgxsReduxDevtoolsPluginModule.forRoot(),
-    NgxsLoggerPluginModule.forRoot()
+    NgxsLoggerPluginModule.forRoot({
+      disabled: environment.production
+    }),
+    NgxsReduxDevtoolsPluginModule.forRoot({
+      name: 'MY_APP_STORE',
+      disabled: environment.production
+    })
   ],
   entryComponents: [
     AddProgramComponent

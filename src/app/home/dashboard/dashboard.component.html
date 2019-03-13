@@ -16,10 +16,10 @@
         </mat-card-header>
         <mat-card-content class="dashboard-card-content">
           <mat-accordion>
-            <mat-expansion-panel>
+            <mat-expansion-panel *ngFor="let program of programs$ | async">
               <mat-expansion-panel-header>
                 <mat-panel-title>
-                  Cisco Networks Postbaccalaureate Certificate
+                  {{program.ProgramVersionName}}
                 </mat-panel-title>
                 <mat-panel-description>
                   <!--Type your name and age-->
@@ -39,82 +39,6 @@
               <h4>Progress: 3 out of 44 credits</h4>
 
               <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
-
-            </mat-expansion-panel>
-            <mat-expansion-panel [expanded]="true">
-              <mat-expansion-panel-header>
-                <mat-panel-title>
-                  Graduate Certificate in Human Resources
-                </mat-panel-title>
-                <mat-panel-description>
-                  <!--Type your name and age-->
-                </mat-panel-description>
-              </mat-expansion-panel-header>
-
-              <mat-chip-list>
-                <mat-chip>TC6.1</mat-chip>
-                <mat-chip>CM222</mat-chip>
-                <mat-chip color="accent" selected>CM226</mat-chip>
-                <mat-chip color="accent" selected>CM229</mat-chip>
-              </mat-chip-list>
-
-              <h4>Progress: 16 out of 42 credits</h4>
-
-              <mat-progress-bar mode="determinate" value="20"></mat-progress-bar>
-
-            </mat-expansion-panel>
-            <mat-expansion-panel>
-              <mat-expansion-panel-header>
-                <mat-panel-title>
-                  Master of Science in Management - Project Management
-                </mat-panel-title>
-                <mat-panel-description>
-                  <!--Type your name and age-->
-                </mat-panel-description>
-              </mat-expansion-panel-header>
-
-              <mat-chip-list>
-                <mat-chip>MM100</mat-chip>
-                <mat-chip>MM110</mat-chip>
-                <mat-chip>MM120</mat-chip>
-                <mat-chip>MM130</mat-chip>
-                <mat-chip>MM140</mat-chip>
-                <mat-chip>MM150</mat-chip>
-                <mat-chip>MM160</mat-chip>
-                <mat-chip>MM170</mat-chip>
-                <mat-chip>MM180</mat-chip>
-                <mat-chip>MM190</mat-chip>
-              </mat-chip-list>
-
-              <h4>Progress: 22 out of 44 credits</h4>
-
-              <mat-progress-bar mode="determinate" value="50"></mat-progress-bar>
-
-            </mat-expansion-panel>
-            <mat-expansion-panel>
-              <mat-expansion-panel-header>
-                <mat-panel-title>
-                  Master of Science in Management - Leadership
-                </mat-panel-title>
-                <mat-panel-description>
-                  <!--Type your name and age-->
-                </mat-panel-description>
-              </mat-expansion-panel-header>
-
-              <mat-chip-list>
-                <mat-chip>MM100</mat-chip>
-                <mat-chip>MM110</mat-chip>
-                <mat-chip>MM120</mat-chip>
-                <mat-chip>MM130</mat-chip>
-                <mat-chip>MM140</mat-chip>
-                <mat-chip>MM150</mat-chip>
-                <mat-chip>MM160</mat-chip>
-                <mat-chip>MM170</mat-chip>
-                <mat-chip>MM180</mat-chip>
-                <mat-chip>MM190</mat-chip>
-              </mat-chip-list>
-
-              <h4>Progress: 0 out of 38 credits</h4>
 
             </mat-expansion-panel>
           </mat-accordion>

@@ -2,11 +2,9 @@ import {Component, OnInit} from '@angular/core';
 import {BreakpointObserver, Breakpoints} from '@angular/cdk/layout';
 import {Observable} from 'rxjs';
 import {map} from 'rxjs/operators';
-import {CoursesService} from '../../shared/services/courses.service';
 import {Select, Store} from '@ngxs/store';
-// import {AddPriorLearningCourse} from '../../actions/prior-learning-course.actions';
 import {PriorLearningInstitutionState} from '../../state/prior-learning-institution.state';
-import {PriorLearningInstitution} from '../../shared/interfaces/prior-learning-institution.interface';
+import {IPriorLearningInstitution} from '../../shared/interfaces/prior-learning-institution.interface';
 import {FetchPriorLearningInstitutions} from '../../actions/prior-learning-institution.actions';
 import {MatDialog} from '@angular/material';
 import {AddInstitutionComponent} from '../../shared/modals/add-institution/add-institution.component';
@@ -18,24 +16,19 @@ import {AddCourseComponent} from '../../shared/modals/add-course/add-course.comp
   styleUrls: ['./navigation.component.scss']
 })
 export class NavigationComponent implements OnInit {
-  animal: string;
-  name: string;
 
   isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
     .pipe(
       map(result => result.matches)
     );
 
-  // priorLearningInstitutions$: Observable<any[]>;
-
   constructor(private breakpointObserver: BreakpointObserver,
               private store: Store,
-              public dialog: MatDialog,
-              private courseService: CoursesService) {
+              public dialog: MatDialog) {
   }
 
   @Select(PriorLearningInstitutionState.loading) loading$: Observable<boolean>;
-  @Select(PriorLearningInstitutionState.priorLearningInstitutions) priorLearningInstitutions$: Observable<PriorLearningInstitution[]>;
+  @Select(PriorLearningInstitutionState.priorLearningInstitutions) priorLearningInstitutions$: Observable<IPriorLearningInstitution[]>;
 
   ngOnInit() {
     this.store.dispatch(new FetchPriorLearningInstitutions());
@@ -45,25 +38,23 @@ export class NavigationComponent implements OnInit {
     const dialogRef = this.dialog.open(AddInstitutionComponent, {
       width: '500px',
       autoFocus: false,
-      data: {name: this.name, animal: this.animal}
+      data: {}
     });
 
     dialogRef.afterClosed().subscribe(result => {
-      console.log('The dialog was closed');
-      this.animal = result;
+      console.log('The dialog was closed', result);
     });
   }
 
-  openCourseDialog(): void {
+  openCourseDialog(institution): void {
     const dialogRef = this.dialog.open(AddCourseComponent, {
       width: '500px',
       autoFocus: false,
-      data: {name: this.name, animal: this.animal}
+      data: {institution: institution}
     });
 
     dialogRef.afterClosed().subscribe(result => {
-      console.log('The dialog was closed');
-      this.animal = result;
+      console.log('The dialog was closed', result);
     });
   }
 }

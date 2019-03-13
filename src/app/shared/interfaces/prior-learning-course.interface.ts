@@ -1,4 +1,4 @@
-export interface PriorLearningCourse {
+export interface IPriorLearningCourse {
   'Title': string;
   'Code': string;
 }
