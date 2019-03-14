@@ -4,4 +4,5 @@ export interface IProgram {
   ProgramVersionName: string;
   TranscriptDescription: string;
   Program: string;
+  expanded?: boolean;
 }

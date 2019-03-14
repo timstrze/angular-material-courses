@@ -5,11 +5,8 @@ import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {HttpClientModule} from '@angular/common/http';
-import {AddProgramComponent} from './shared/modals/add-program/add-program.component';
 import {ServiceWorkerModule} from '@angular/service-worker';
 import {environment} from '../environments/environment';
-import {FormsModule, ReactiveFormsModule} from '@angular/forms';
-import {MatAutocompleteModule, MatFormFieldModule, MatInputModule} from '@angular/material';
 
 import {NgxsModule} from '@ngxs/store';
 import {NgxsReduxDevtoolsPluginModule} from '@ngxs/devtools-plugin';
@@ -19,8 +16,7 @@ import {ProgramState} from './state/program.state';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    AddProgramComponent
+    AppComponent
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'serverApp'}),
@@ -28,10 +24,6 @@ import {ProgramState} from './state/program.state';
     BrowserAnimationsModule,
     HttpClientModule,
     ServiceWorkerModule.register('ngsw-worker.js', {enabled: environment.production}),
-    FormsModule, ReactiveFormsModule,
-    MatFormFieldModule,
-    MatInputModule,
-    MatAutocompleteModule,
     NgxsModule.forRoot([
       PriorLearningInstitutionState,
       ProgramState
@@ -44,9 +36,7 @@ import {ProgramState} from './state/program.state';
       disabled: environment.production
     })
   ],
-  entryComponents: [
-    AddProgramComponent
-  ],
+  entryComponents: [],
   providers: [],
   bootstrap: [AppComponent]
 })

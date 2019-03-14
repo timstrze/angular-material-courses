@@ -1,18 +1,17 @@
-<div class="example-container">
-  <mat-form-field>
-    <input matInput placeholder="Input">
-  </mat-form-field>
+<form [formGroup]="courseForm" (ngSubmit)="addPriorLearningCourse()">
+  <div class="example-container">
 
-  <mat-form-field>
-    <textarea matInput placeholder="Textarea"></textarea>
-  </mat-form-field>
+    <h2>Add a course to {{data.institution.InstitutionName}}</h2>
 
-  <mat-form-field>
-    <mat-select placeholder="Select">
-      <mat-option value="option">Option</mat-option>
-    </mat-select>
-  </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Course Code" required formControlName="courseCode">
+    </mat-form-field>
 
-  <button mat-button (click)="addPriorLearningCourse()">Click me!</button>
+    <mat-form-field>
+      <input matInput placeholder="Course Title" required formControlName="courseTitle">
+    </mat-form-field>
 
-</div>
+    <button type="submit" mat-button [disabled]="!courseForm.valid">Add Course</button>
+
+  </div>
+</form>

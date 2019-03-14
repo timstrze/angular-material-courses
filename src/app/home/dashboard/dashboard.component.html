@@ -16,13 +16,13 @@
         </mat-card-header>
         <mat-card-content class="dashboard-card-content">
           <mat-accordion>
-            <mat-expansion-panel *ngFor="let program of programs$ | async">
+            <mat-expansion-panel *ngFor="let program of programs$ | async" [expanded]="program.expanded">
               <mat-expansion-panel-header>
                 <mat-panel-title>
                   {{program.ProgramVersionName}}
                 </mat-panel-title>
                 <mat-panel-description>
-                  <!--Type your name and age-->
+                  <!--Description and information placeholder-->
                 </mat-panel-description>
               </mat-expansion-panel-header>
 
@@ -34,7 +34,6 @@
                 <mat-chip color="primary" selected>HS290</mat-chip>
                 <mat-chip color="accent" selected>CM220</mat-chip>
               </mat-chip-list>
-
 
               <h4>Progress: 3 out of 44 credits</h4>
 

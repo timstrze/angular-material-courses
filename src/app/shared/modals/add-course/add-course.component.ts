@@ -1,8 +1,9 @@
 import {Component, Inject, OnInit} from '@angular/core';
 import {Store} from '@ngxs/store';
 import {AddCourseToInstitution} from '../../../actions/prior-learning-institution.actions';
-import {MAT_DIALOG_DATA} from '@angular/material';
+import {MAT_DIALOG_DATA, MatDialogRef} from '@angular/material';
 import {DialogData} from '../add-program/add-program.component';
+import {FormBuilder} from '@angular/forms';
 
 @Component({
   selector: 'app-add-course',
@@ -11,7 +12,14 @@ import {DialogData} from '../add-program/add-program.component';
 })
 export class AddCourseComponent implements OnInit {
 
+  courseForm = this.fb.group({
+    courseCode: [''],
+    courseTitle: ['']
+  });
+
   constructor(public store: Store,
+              private fb: FormBuilder,
+              public dialogRef: MatDialogRef<AddCourseComponent>,
               @Inject(MAT_DIALOG_DATA) public data: DialogData) {
   }
 
@@ -20,10 +28,12 @@ export class AddCourseComponent implements OnInit {
 
   addPriorLearningCourse() {
     this.store.dispatch(new AddCourseToInstitution({
-        Code: 'Tim', Title: 'Test'
+        Code: this.courseForm.get('courseCode').value, Title: this.courseForm.get('courseTitle').value
       },
       this.data.institution
-    ));
+    )).subscribe(() => {
+      this.dialogRef.close('Course Added');
+    });
   }
 
 }

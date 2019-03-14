@@ -37,6 +37,7 @@ export class ProgramState {
     let programs: IProgram[] = [];
     this.http.get<IProgram[]>('./json/programs.json').subscribe(response => {
       programs = response;
+      programs[1].expanded = true;
       setState({
         ...state,
         programs: programs,

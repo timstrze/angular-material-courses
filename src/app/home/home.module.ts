@@ -20,14 +20,22 @@ import {
   MatChipsModule,
   MatProgressBarModule,
   MatBadgeModule,
-  MatSelectModule
+  MatSelectModule, MatAutocompleteModule
 } from '@angular/material';
 import {DashboardComponent} from './dashboard/dashboard.component';
-import { AddInstitutionComponent } from '../shared/modals/add-institution/add-institution.component';
-import { AddCourseComponent } from '../shared/modals/add-course/add-course.component';
+import {AddInstitutionComponent} from '../shared/modals/add-institution/add-institution.component';
+import {AddCourseComponent} from '../shared/modals/add-course/add-course.component';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {AddProgramComponent} from '../shared/modals/add-program/add-program.component';
 
 @NgModule({
-  declarations: [NavigationComponent, DashboardComponent, AddInstitutionComponent, AddCourseComponent],
+  declarations: [
+    NavigationComponent,
+    DashboardComponent,
+    AddInstitutionComponent,
+    AddCourseComponent,
+    AddProgramComponent
+  ],
   imports: [
     CommonModule,
     HomeRoutingModule,
@@ -48,9 +56,15 @@ import { AddCourseComponent } from '../shared/modals/add-course/add-course.compo
     MatProgressBarModule,
     MatBadgeModule,
     MatFormFieldModule,
-    MatSelectModule
+    MatSelectModule,
+    ReactiveFormsModule,
+    FormsModule,
+    MatAutocompleteModule
   ],
-  entryComponents: [AddInstitutionComponent, AddCourseComponent]
+  entryComponents: [
+    AddInstitutionComponent,
+    AddCourseComponent,
+    AddProgramComponent]
 })
 export class HomeModule {
 }
