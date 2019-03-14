@@ -1,6 +1,9 @@
 # Blueprint
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli)
+
+## Install dependencies
+Run `npm install` at the root directory to install all of the application dependencies
 
 ## Development server
 
