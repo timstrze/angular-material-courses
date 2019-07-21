@@ -7,6 +7,10 @@ const routes: Routes = [
     loadChildren: './home/home.module#HomeModule'
   },
   {
+    path: 'grids',
+    loadChildren: './grids/grids.module#GridsModule'
+  },
+  {
     path: '',
     redirectTo: '/home',
     pathMatch: 'full'

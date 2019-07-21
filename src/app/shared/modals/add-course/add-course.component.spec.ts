@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { AddCourseComponent } from './add-course.component';
+import {MatFormFieldModule} from '@angular/material';
 
 describe('AddCourseComponent', () => {
   let component: AddCourseComponent;
@@ -8,7 +9,10 @@ describe('AddCourseComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AddCourseComponent ]
+      declarations: [ AddCourseComponent ],
+      imports: [
+        MatFormFieldModule
+      ]
     })
     .compileComponents();
   }));

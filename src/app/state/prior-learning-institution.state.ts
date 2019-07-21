@@ -6,6 +6,7 @@ import {
   FetchPriorLearningInstitutions,
 } from '../actions/prior-learning-institution.actions';
 import {HttpClient} from '@angular/common/http';
+import {PriorLearningInstitutionsService} from '../shared/services/prior-learning-institutions.service';
 
 export class PriorLearningInstitutionModel {
   priorLearningInstitutions: IPriorLearningInstitution[];
@@ -22,7 +23,7 @@ export class PriorLearningInstitutionModel {
 
 export class PriorLearningInstitutionState {
 
-  constructor(private http: HttpClient) {
+  constructor(private institutionService: PriorLearningInstitutionsService) {
   }
 
   @Selector()
@@ -58,7 +59,7 @@ export class PriorLearningInstitutionState {
   getPosts({getState, setState}: StateContext<PriorLearningInstitutionModel>) {
     const state = getState();
     let priorLearningInstitutions: IPriorLearningInstitution[] = [];
-    this.http.get<IPriorLearningInstitution[]>('./json/prior-learning-courses.json').subscribe(institutions => {
+    this.institutionService.fetchPriorLearningInstitutions().subscribe(institutions => {
       priorLearningInstitutions = institutions;
       setState({
         ...state,

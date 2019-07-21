@@ -1,7 +1,9 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { AddProgramComponent } from './add-program.component';
-import {MAT_DIALOG_DATA, MatDialogModule, MatDialogRef} from '@angular/material';
+import {MAT_DIALOG_DATA, MatAutocompleteModule, MatDialogModule, MatDialogRef, MatFormFieldModule, MatInputModule} from '@angular/material';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 
 describe('AddProgramComponent', () => {
   let component: AddProgramComponent;
@@ -11,7 +13,13 @@ describe('AddProgramComponent', () => {
     TestBed.configureTestingModule({
       declarations: [ AddProgramComponent ],
       imports: [
-        MatDialogModule
+        MatDialogModule,
+        MatAutocompleteModule,
+        MatFormFieldModule,
+        FormsModule,
+        ReactiveFormsModule,
+        MatInputModule,
+        NoopAnimationsModule
       ],
       providers: [
         {

@@ -9,8 +9,8 @@ export class CoursesService {
 
   constructor(private http: HttpClient) { }
 
-  getPriorKaplanCourses (): Observable<any[]> {
-    return this.http.get<any[]>('./json/prior-kaplan-courses.json');
+  getPriorCourses (): Observable<any[]> {
+    return this.http.get<any[]>('./json/prior-courses.json');
   }
 
   getPriorLearningCourses (): Observable<any[]> {

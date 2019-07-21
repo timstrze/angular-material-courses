@@ -249,7 +249,7 @@
         "Grade": "",
         "Status": "S",
         "AdEnrollSchedId": 41884701,
-        "Title": "Kaplan University Orientation",
+        "Title": "Learning University Orientation",
         "Code": "KU160",
         "IsAvailableForAssociation": true,
         "Term": "SPT",
@@ -262,7 +262,7 @@
             "StartDate": "2014-04-16T00:00:00",
             "Courses": [
               {
-                "Title": "Kaplan University Orientation",
+                "Title": "Learning University Orientation",
                 "Code": "KU160",
                 "Term": "SPT",
                 "Grade": "",

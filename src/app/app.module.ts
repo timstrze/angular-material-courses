@@ -13,6 +13,7 @@ import {NgxsReduxDevtoolsPluginModule} from '@ngxs/devtools-plugin';
 import {NgxsLoggerPluginModule} from '@ngxs/logger-plugin';
 import {PriorLearningInstitutionState} from './state/prior-learning-institution.state';
 import {ProgramState} from './state/program.state';
+import {PriorLearningInstitutionsService} from './shared/services/prior-learning-institutions.service';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,7 @@ import {ProgramState} from './state/program.state';
     NgxsModule.forRoot([
       PriorLearningInstitutionState,
       ProgramState
-    ], { developmentMode: !environment.production }),
+    ], {developmentMode: !environment.production}),
     NgxsLoggerPluginModule.forRoot({
       disabled: environment.production
     }),
@@ -37,7 +38,9 @@ import {ProgramState} from './state/program.state';
     })
   ],
   entryComponents: [],
-  providers: [],
+  providers: [
+    PriorLearningInstitutionsService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {
